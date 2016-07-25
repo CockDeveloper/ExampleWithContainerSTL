@@ -13,6 +13,8 @@ namespace ContainerExample
         ListExample(void);
         ~ListExample(void);
         static void ExampleConstructor(void);
+        static void ExamplePopFront();
+        static void ExamplePopBack();
 
         static void PrintListInt(list<int> listPrint)
         {

@@ -9,6 +9,10 @@ int _tmain(int argc, _TCHAR* argv[])
 {
     //list contructor
     ContainerExample::ListExample::ExampleConstructor();
+    //list pop front
+    ContainerExample::ListExample::ExamplePopFront();
+    //list pop back
+    ContainerExample::ListExample::ExamplePopBack();
 
 	return 0;
 }

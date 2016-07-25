@@ -48,13 +48,42 @@ namespace ContainerExample
         PrintListInt(fifth);
     }
 
-    //void PrintListInt(list<int> listPrint)
-    //{
-    //    for (list<int>::iterator it = listPrint.begin(); it != listPrint.end(); ++it)
-    //        cout << *it << ' ';
+    void ListExample::ExamplePopFront()
+    {
+        list<int> mylist;
+        mylist.push_back (100);
+        mylist.push_back (200);
+        mylist.push_back (300);
 
-    //    cout << '\n';
+        PrintListInt(mylist);
 
-    //}
+        cout << "Popping out the elements in mylist:";
+        //Xóa từng phần tử trong danh sách myList;
+        while (!mylist.empty())
+        {
+            cout << ' ' << mylist.front();
+            mylist.pop_front();
+        }
 
+        cout << "\nFinal size of mylist is " << mylist.size() << '\n';
+    }
+
+    void ListExample::ExamplePopBack()
+    {
+        list<int> mylist;
+        int sum (0);
+        mylist.push_back (100);
+        mylist.push_back (200);
+        mylist.push_back (300);
+
+        PrintListInt(mylist);
+        //Xóa từng phần tử đằng sau danh sách
+        while (!mylist.empty())
+        {
+            sum+=mylist.back();
+            mylist.pop_back();
+        }
+
+        cout << "The elements of mylist summed " << sum << '\n';
+    }
 }
