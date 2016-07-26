@@ -3,6 +3,7 @@
 
 #include "stdafx.h"
 #include "ListExample.h"
+#include "VectorExample.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
@@ -13,6 +14,10 @@ int _tmain(int argc, _TCHAR* argv[])
     ContainerExample::ListExample::ExamplePopFront();
     //list pop back
     ContainerExample::ListExample::ExamplePopBack();
+
+
+    //vector contructor
+    ContainerExample::VectorExample::ExampleConstructor();
 
 	return 0;
 }
