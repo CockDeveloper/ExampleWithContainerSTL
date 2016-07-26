@@ -5,6 +5,7 @@
 #include "ListExample.h"
 #include "VectorExample.h"
 #include "DequeExample.h"
+#include "StringExample.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
@@ -22,6 +23,10 @@ int _tmain(int argc, _TCHAR* argv[])
 
     //deque constructor
     ContainerExample::DequeExample::ExampleConstructor();
+
+    //string constructor
+    OtherExample::StringExample::ExampleConstructor();
+
 
 	return 0;
 }
