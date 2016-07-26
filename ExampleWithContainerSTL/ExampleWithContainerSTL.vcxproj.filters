@@ -30,6 +30,9 @@
     <ClInclude Include="VectorExample.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Deque.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -42,6 +45,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="VectorExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DequeExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

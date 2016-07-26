@@ -14,7 +14,7 @@ namespace ContainerExample
         ~VectorExample(void);
         static void ExampleConstructor(void);
 
-        static void PrintListInt(vector<int> vectorPrint)
+        static void PrintVectorInt(vector<int> vectorPrint)
         {
             for (vector<int>::iterator it = vectorPrint.begin(); it != vectorPrint.end(); ++it)
                 cout << *it << ' ';

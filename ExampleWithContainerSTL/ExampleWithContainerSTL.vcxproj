@@ -75,12 +75,14 @@
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Deque.h" />
     <ClInclude Include="ListExample.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="VectorExample.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DequeExample.cpp" />
     <ClCompile Include="ExampleWithContainerSTL.cpp" />
     <ClCompile Include="ListExample.cpp" />
     <ClCompile Include="stdafx.cpp">
