@@ -19,20 +19,28 @@ namespace OtherExample
 
     void StringExample::ExampleConstructor(void)
     {
-        std::string s0 ("Initial string");
+        string s0 ("Initial string");
 
         // constructors used in the same order as described above:
-        std::string s1;
-        std::string s2 (s0);
-        std::string s3 (s0, 8, 3);
-        std::string s4 ("A character sequence", 6);
-        std::string s5 ("Another character sequence");
-        std::string s6a (10, 'x');
-        std::string s6b (10, 42);      // 42 is the ASCII code for '*'
-        std::string s7 (s0.begin(), s0.begin()+7);
+        string s1;
+        string s2 (s0);
+        string s3 (s0, 8, 3);
+        string s4 ("A character sequence", 6);
+        string s5 ("Another character sequence");
+        string s6a (10, 'x');
+        string s6b (10, 42);      // 42 is the ASCII code for '*'
+        string s7 (s0.begin(), s0.begin()+7);
 
-        std::cout << "s1: " << s1 << "\ns2: " << s2 << "\ns3: " << s3;
-        std::cout << "\ns4: " << s4 << "\ns5: " << s5 << "\ns6a: " << s6a;
-        std::cout << "\ns6b: " << s6b << "\ns7: " << s7 << '\n';    }
+        cout << "s1: " << s1 << "\ns2: " << s2 << "\ns3: " << s3;
+        cout << "\ns4: " << s4 << "\ns5: " << s5 << "\ns6a: " << s6a;
+        cout << "\ns6b: " << s6b << "\ns7: " << s7 << '\n';
+    }
+
+    void StringExample::ExampleReverse(void)
+    {
+        string s0 ("Initial string");
+        string s1(s0.rbegin(), s0.rend());
+        cout << s0 << endl << s1 << endl;
+    }
 
 }

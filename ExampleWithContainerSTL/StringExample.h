@@ -9,6 +9,7 @@ namespace OtherExample
         StringExample(void);
         ~StringExample(void);
         static void ExampleConstructor(void);
+        static void ExampleReverse(void);
 
     };
 

@@ -27,6 +27,8 @@ int _tmain(int argc, _TCHAR* argv[])
     //string constructor
     OtherExample::StringExample::ExampleConstructor();
 
+    //string contructor
+    OtherExample::StringExample::ExampleReverse();
 
 	return 0;
 }
