@@ -39,8 +39,12 @@ namespace OtherExample
     void StringExample::ExampleReverse(void)
     {
         string s0 ("Initial string");
-        string s1(s0.rbegin(), s0.rend());
-        cout << s0 << endl << s1 << endl;
+        cout << s0 << endl << StringExample::Reverse(s0) << endl;
     }
 
+    string StringExample::Reverse(string str)
+    {
+        string ret(str.rbegin(), str.rend());
+        return ret;
+    }
 }
