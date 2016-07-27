@@ -51,6 +51,9 @@ namespace OtherExample
 
     void StringExample::ExampleInputStringStream(void)
     {
+
+        // link reference: http://stackoverflow.com/questions/9419500/getlinecin-astring-receiving-input-without-another-enter
+
         string a, b;
         string a_, b_;
         stringstream myStream;
