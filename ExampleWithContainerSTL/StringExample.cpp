@@ -3,6 +3,7 @@
 #include <iostream>
 #include <string>
 #include <sstream>
+#include <vector>
 
 using namespace std;
 
@@ -116,6 +117,16 @@ namespace OtherExample
         stringstream(mystr) >> quantity;
         cout << "Total price: " << price*quantity << endl;
 
+    }
+
+    void StringExample::ExampleInputStringStreamParseInts(void)
+    {
+        string str;
+        cin >> str;
+        vector<int> integers = parseInts(str);
+        for(int i = 0; i < integers.size(); i++) {
+            cout << integers[i] << "\n";
+        }
     }
 
 }

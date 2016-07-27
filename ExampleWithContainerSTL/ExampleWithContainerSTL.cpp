@@ -36,6 +36,9 @@ int _tmain(int argc, _TCHAR* argv[])
     //string input value for number
     OtherExample::StringExample::ExampleInputStringStreamForNumber();
 
+    //string input parse to number
+    OtherExample::StringExample::ExampleInputStringStreamParseInts();
+
 	return 0;
 }
 
