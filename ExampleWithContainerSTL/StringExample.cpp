@@ -77,6 +77,26 @@ namespace OtherExample
         a_[0] = b[0];
         b_[0] = a[0];
         cout << a_ << ' ' << b_ << endl;
+
+        // Other solution
+        // link reference: https://www.hackerrank.com/challenges/c-tutorial-strings
+
+        //string a, b;
+        ////temp variable used for the swap
+        //char temp;
+        ////gets input for the two strings
+        //cin >> a;
+        //cin >> b;
+        ////first line diplays number of chars in each string seperated by a space
+        //cout << a.size() << " " << b.size() << endl;
+        ////second line displays the two strings concatenated
+        //cout << a+b << endl;
+        ////third line displays the two strings with first chars swapped
+        //temp = a[0];
+        //a[0] = b[0];
+        //b[0] = temp;
+        //cout << a << " " << b;
+
     }
 
     void StringExample::ExampleInputStringStreamForNumber(void)

@@ -75,7 +75,7 @@
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Deque.h" />
+    <ClInclude Include="dequeexample.h" />
     <ClInclude Include="ListExample.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="StringExample.h" />

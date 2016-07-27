@@ -30,10 +30,10 @@
     <ClInclude Include="VectorExample.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Deque.h">
+    <ClInclude Include="StringExample.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="StringExample.h">
+    <ClInclude Include="dequeexample.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
