@@ -33,6 +33,9 @@ int _tmain(int argc, _TCHAR* argv[])
     //string input value
     OtherExample::StringExample::ExampleInputStringStream();
 
+    //string input value for number
+    OtherExample::StringExample::ExampleInputStringStreamForNumber();
+
 	return 0;
 }
 

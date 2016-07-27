@@ -79,4 +79,23 @@ namespace OtherExample
         cout << a_ << ' ' << b_ << endl;
     }
 
+    void StringExample::ExampleInputStringStreamForNumber(void)
+    {
+
+        // link reference: http://www.cplusplus.com/doc/tutorial/basic_io/
+
+        string mystr;
+        float price=0;
+        int quantity=0;
+
+        cout << "Enter price: ";
+        getline (cin,mystr);
+        stringstream(mystr) >> price;
+        cout << "Enter quantity: ";
+        getline (cin,mystr);
+        stringstream(mystr) >> quantity;
+        cout << "Total price: " << price*quantity << endl;
+
+    }
+
 }
