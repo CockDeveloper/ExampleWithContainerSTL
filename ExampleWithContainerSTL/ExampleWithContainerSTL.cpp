@@ -30,6 +30,9 @@ int _tmain(int argc, _TCHAR* argv[])
     //string contructor
     OtherExample::StringExample::ExampleReverse();
 
+    //string input value
+    OtherExample::StringExample::ExampleInputStringStream();
+
 	return 0;
 }
 

@@ -2,6 +2,7 @@
 #include "StringExample.h"
 #include <iostream>
 #include <string>
+#include <sstream>
 
 using namespace std;
 
@@ -47,4 +48,32 @@ namespace OtherExample
         string ret(str.rbegin(), str.rend());
         return ret;
     }
+
+    void StringExample::ExampleInputStringStream(void)
+    {
+        string a, b;
+        string a_, b_;
+        stringstream myStream;
+
+        getline(cin, a);
+        myStream << a;
+        a.clear();
+        myStream >> a;
+        myStream.clear();
+
+        getline(cin, b);
+        myStream << b;
+        b.clear();
+        myStream >> b;
+        myStream.clear();
+
+        cout << a.size() << ' ' << b.size() << endl;
+        cout << a+b << endl;
+        a_ = a;
+        b_ = b;
+        a_[0] = b[0];
+        b_[0] = a[0];
+        cout << a_ << ' ' << b_ << endl;
+    }
+
 }
